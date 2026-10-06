@@ -5,13 +5,13 @@ plugins {
 android {
     namespace = "com.example.investaz"
     compileSdk {
-        version = release(37)
+        version = release(33)
     }
 
     defaultConfig {
         applicationId = "com.example.investaz"
-        minSdk = 24
-        targetSdk = 37
+        minSdk = 21
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
 
@@ -25,6 +25,11 @@ android {
             }
         }
     }
+
+    buildFeatures {
+        viewBinding = true
+    }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
