@@ -20,8 +20,11 @@ class MarketSummaryComponent(private val binding: LayoutMarketSummaryBinding) : 
         binding.total.value.text = summary.total.toString()
         binding.gainers.value.text = summary.gainers.toString()
         binding.losers.value.text = summary.losers.toString()
-        binding.sentimentValue.text =
+        binding.sentimentValue.text = if (state.hasCachedPrices) {
             binding.root.context.getString(R.string.summary_sentiment_value, summary.gainersPercent)
+        } else {
+            binding.root.context.getString(R.string.summary_sentiment_empty)
+        }
         binding.sentiment.setProgressCompat(summary.gainersPercent, true)
     }
 

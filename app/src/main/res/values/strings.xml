@@ -16,6 +16,7 @@
     <string name="summary_losers">Azalan</string>
     <string name="summary_sentiment">Bazar əhvalı</string>
     <string name="summary_sentiment_value">%1$d%% artımda</string>
+    <string name="summary_sentiment_empty">—</string>
 
     <string name="filter_all">Hamısı · %1$d</string>
     <string name="filter_gainers">Artan · %1$d</string>
