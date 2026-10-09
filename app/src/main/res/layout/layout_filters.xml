@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.ChipGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/spacing_large"
+    android:paddingTop="@dimen/spacing_medium"
+    app:checkedChip="@id/chipAll"
+    app:selectionRequired="true"
+    app:singleLine="true"
+    app:singleSelection="true">
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chipAll"
+        style="@style/Widget.InvestAZ.FilterChip" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chipGainers"
+        style="@style/Widget.InvestAZ.FilterChip" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chipLosers"
+        style="@style/Widget.InvestAZ.FilterChip" />
+</com.google.android.material.chip.ChipGroup>

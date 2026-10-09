@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen_background"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/layout_header" />
+
+    <include
+        android:id="@+id/filters"
+        layout="@layout/layout_filters" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <include
+            android:id="@+id/body"
+            layout="@layout/layout_body" />
+
+        <include
+            android:id="@+id/emptyOrError"
+            layout="@layout/layout_empty_or_error" />
+    </FrameLayout>
+</LinearLayout>

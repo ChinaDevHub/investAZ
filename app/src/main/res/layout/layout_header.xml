@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_brand_gradient"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/spacing_xlarge"
+    android:paddingTop="@dimen/spacing_medium"
+    android:paddingBottom="@dimen/spacing_xlarge">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:letterSpacing="0.08"
+                android:text="@string/header_eyebrow"
+                android:textAllCaps="true"
+                android:textAppearance="?attr/textAppearanceLabelMedium"
+                android:textColor="@color/on_brand_muted" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/header_title"
+                android:textAppearance="?attr/textAppearanceHeadlineSmall"
+                android:textColor="@color/on_brand"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/statusChip"
+            style="@style/Widget.Material3.Chip.Assist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:focusable="false"
+            android:textColor="@color/on_brand"
+            app:chipBackgroundColor="@color/glass_fill"
+            app:chipCornerRadius="@dimen/radius_pill"
+            app:chipIcon="@drawable/ic_status_dot"
+            app:chipIconSize="8dp"
+            app:chipIconVisible="true"
+            app:chipStrokeColor="@color/glass_stroke"
+            app:chipSurfaceColor="@android:color/transparent"
+            app:iconStartPadding="@dimen/spacing_small"
+            tools:text="@string/status_connected" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_xsmall"
+        android:textAppearance="?attr/textAppearanceBodySmall"
+        android:textColor="@color/on_brand_muted"
+        tools:text="@string/header_subtitle_live" />
+
+    <include
+        android:id="@+id/summary"
+        layout="@layout/layout_market_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_large" />
+</LinearLayout>

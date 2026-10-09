@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_xsmall">4dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_medium">12dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+    <dimen name="spacing_xlarge">20dp</dimen>
+    <dimen name="spacing_xxlarge">32dp</dimen>
+
+    <dimen name="radius_large">20dp</dimen>
+    <dimen name="radius_header">32dp</dimen>
+    <dimen name="radius_pill">100dp</dimen>
+
+    <dimen name="avatar_size">44dp</dimen>
+    <dimen name="trend_icon_size">18dp</dimen>
+    <dimen name="range_bar_thickness">4dp</dimen>
+    <dimen name="range_bar_corner">2dp</dimen>
+    <dimen name="sentiment_bar_thickness">6dp</dimen>
+    <dimen name="placeholder_badge_size">88dp</dimen>
+    <dimen name="placeholder_icon_size">40dp</dimen>
+</resources>

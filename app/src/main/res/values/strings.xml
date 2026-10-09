@@ -1,3 +1,35 @@
 <resources>
     <string name="app_name">InvestAZ</string>
+
+    <string name="header_eyebrow">InvestAZ · Bazarlar</string>
+    <string name="header_title">Canlı qiymətlər</string>
+    <string name="header_subtitle_live">Real vaxt yenilənmələri</string>
+    <string name="header_subtitle_cached">Oflayn: son keşlənmiş qiymətlər göstərilir</string>
+    <string name="header_subtitle_waiting">Məlumat gözlənilir</string>
+
+    <string name="status_connected">Qoşuldu</string>
+    <string name="status_connecting">Qoşulur</string>
+    <string name="status_disconnected">Bağlıdır</string>
+
+    <string name="summary_instruments">Alətlər</string>
+    <string name="summary_gainers">Artan</string>
+    <string name="summary_losers">Azalan</string>
+    <string name="summary_sentiment">Bazar əhvalı</string>
+    <string name="summary_sentiment_value">%1$d%% artımda</string>
+
+    <string name="filter_all">Hamısı · %1$d</string>
+    <string name="filter_gainers">Artan · %1$d</string>
+    <string name="filter_losers">Azalan · %1$d</string>
+
+    <string name="price_meta">Spred %1$d · %2$s</string>
+    <string name="price_ask">Satış %1$s</string>
+    <string name="price_low">L %1$s</string>
+    <string name="price_high">H %1$s</string>
+
+    <string name="placeholder_loading_title">Qiymətlər yüklənir</string>
+    <string name="placeholder_loading_message">Serverə qoşulur və ilk məlumatlar gözlənilir…</string>
+    <string name="placeholder_offline_title">Bağlantı yoxdur</string>
+    <string name="placeholder_offline_message">İnternet bağlantınızı yoxlayın. Bağlantı bərpa olunduqda qiymətlər avtomatik yenilənəcək.</string>
+    <string name="placeholder_no_matches_title">Uyğun alət yoxdur</string>
+    <string name="placeholder_no_matches_message">Bu filtrə uyğun alət hazırda yoxdur. Başqa filtr seçin.</string>
 </resources>

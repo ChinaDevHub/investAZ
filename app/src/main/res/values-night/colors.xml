@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_primary">#FF93A8FF</color>
+    <color name="brand_container">#FF263066</color>
+    <color name="brand_on_container">#FFE0E7FF</color>
+    <color name="screen_background">#FF0A0F1E</color>
+    <color name="card_surface">#FF141B2E</color>
+    <color name="range_track">#FF263049</color>
+
+    <color name="price_up">#FF4ADE80</color>
+    <color name="price_down">#FFF87171</color>
+    <color name="price_neutral">#FF9CA3AF</color>
+</resources>

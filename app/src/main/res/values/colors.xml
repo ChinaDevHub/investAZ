@@ -2,4 +2,33 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Brand gradient (identical in light and dark) -->
+    <color name="brand_gradient_start">#FF0A1A4F</color>
+    <color name="brand_gradient_center">#FF1D3FB8</color>
+    <color name="brand_gradient_end">#FF6D28D9</color>
+
+    <!-- Content placed on top of the brand gradient -->
+    <color name="on_brand">#FFFFFFFF</color>
+    <color name="on_brand_muted">#B3FFFFFF</color>
+    <color name="glass_fill">#1FFFFFFF</color>
+    <color name="glass_stroke">#33FFFFFF</color>
+
+    <!-- Bright signals, readable on the gradient -->
+    <color name="signal_positive">#FF4ADE80</color>
+    <color name="signal_warning">#FFFBBF24</color>
+    <color name="signal_negative">#FFF87171</color>
+
+    <!-- Theme surfaces -->
+    <color name="brand_primary">#FF1D4ED8</color>
+    <color name="brand_container">#FFE0E7FF</color>
+    <color name="brand_on_container">#FF1E3A8A</color>
+    <color name="screen_background">#FFF3F5FA</color>
+    <color name="card_surface">#FFFFFFFF</color>
+    <color name="range_track">#FFE5E8F0</color>
+
+    <!-- Price movement on cards -->
+    <color name="price_up">#FF16A34A</color>
+    <color name="price_down">#FFDC2626</color>
+    <color name="price_neutral">#FF6B7280</color>
 </resources>
